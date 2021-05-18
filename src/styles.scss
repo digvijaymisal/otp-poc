@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-snack-bar-container {
+    background-color: #26c7a5 !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+.mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #26c7a5;
+}
